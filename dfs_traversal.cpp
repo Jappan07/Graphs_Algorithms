@@ -59,19 +59,26 @@ public:
 
 int main() {
 
-    Graph<int>g;
-    g.addEdge(0, 1);
-    g.addEdge(1, 2);
-    g.addEdge(0, 4);
-    g.addEdge(2, 4);
-    g.addEdge(2, 3);
-    g.addEdge(3, 4);
-    g.addEdge(3, 5);
+    Graph<string>g;
+    // g.addEdge(0, 1);
+    // g.addEdge(1, 2);
+    // g.addEdge(0, 4);
+    // g.addEdge(2, 4);
+    // g.addEdge(2, 3);
+    // g.addEdge(3, 4);
+    // g.addEdge(3, 5);
+    g.addEdge("a", "b", false);
+    g.addEdge("b", "d", false);
+    g.addEdge("d", "a", false);
+    g.addEdge("d", "c", false);
+    g.addEdge("e", "d", false);
+    g.addEdge("e", "f", false);
+
 
     cout << "Adjacency list:" << endl;
     g.print();
     cout << "Depth First Search Traversal Applied:" << endl;
-    g.dfs(0);
+    g.dfs("a");
     cout << endl;
 
 

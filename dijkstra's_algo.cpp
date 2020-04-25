@@ -94,24 +94,24 @@ public:
 
 int main() {
 
-    // Graph<int>g;
-    // g.addEdge(1, 2, 1);
-    // g.addEdge(1, 3, 4);
-    // g.addEdge(2, 3, 1);
-    // g.addEdge(3, 4, 2);
-    // g.addEdge(1, 4, 7);
-    // g.print();
-    // g.dijkstraSSS(1);
-    Graph<string>india;
-    india.addEdge("Amritsar", "Delhi", 1);
-    india.addEdge("Amritsar", "Jaipur", 4);
-    india.addEdge("Jaipur", "Delhi", 2);
-    india.addEdge("Jaipur", "Mumbai", 8);
-    india.addEdge("Bhopal", "Agra", 2);
-    india.addEdge("Mumbai", "Bhopal", 3);
-    india.addEdge("Agra", "Delhi", 1);
-    india.print();
-    india.dijkstraSSS("Amritsar");
+    Graph<int>g;
+    g.addEdge(1, 2, 1);
+    g.addEdge(1, 3, 4);
+    g.addEdge(2, 3, 1);
+    g.addEdge(3, 4, 2);
+    g.addEdge(1, 4, 7);
+    g.print();
+    g.dijkstraSSS(1);
+    // Graph<string>india;
+    // india.addEdge("Amritsar", "Delhi", 1);
+    // india.addEdge("Amritsar", "Jaipur", 4);
+    // india.addEdge("Jaipur", "Delhi", 2);
+    // india.addEdge("Jaipur", "Mumbai", 8);
+    // india.addEdge("Bhopal", "Agra", 2);
+    // india.addEdge("Mumbai", "Bhopal", 3);
+    // india.addEdge("Agra", "Delhi", 1);
+    // india.print();
+    // india.dijkstraSSS("Amritsar");
 
 
 
